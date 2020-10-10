@@ -15,6 +15,7 @@
 		9D62A7D12531DF95009B4F2E /* Ciphering_DataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62A7D02531DF95009B4F2E /* Ciphering_DataUITests.swift */; };
 		9D62A7E62531DFD2009B4F2E /* Vigenere.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62A7E42531DFD2009B4F2E /* Vigenere.swift */; };
 		9D62A7E72531DFD2009B4F2E /* Shift Cipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62A7E52531DFD2009B4F2E /* Shift Cipher.swift */; };
+		9D62A7EC2531ED33009B4F2E /* substitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D62A7EB2531ED33009B4F2E /* substitution.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +51,7 @@
 		9D62A7D22531DF95009B4F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9D62A7E42531DFD2009B4F2E /* Vigenere.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Vigenere.swift; path = ../../playfair/playfair/Vigenere.swift; sourceTree = "<group>"; };
 		9D62A7E52531DFD2009B4F2E /* Shift Cipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Shift Cipher.swift"; path = "../../playfair/playfair/Shift Cipher.swift"; sourceTree = "<group>"; };
+		9D62A7EB2531ED33009B4F2E /* substitution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = substitution.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 				9D62A7B82531DF95009B4F2E /* Main.storyboard */,
 				9D62A7BB2531DF95009B4F2E /* Info.plist */,
 				9D62A7BC2531DF95009B4F2E /* Ciphering_Data.entitlements */,
+				9D62A7EB2531ED33009B4F2E /* substitution.swift */,
 			);
 			path = Ciphering_Data;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				9D62A7B52531DF94009B4F2E /* ViewController.swift in Sources */,
 				9D62A7E72531DFD2009B4F2E /* Shift Cipher.swift in Sources */,
 				9D62A7B32531DF94009B4F2E /* AppDelegate.swift in Sources */,
+				9D62A7EC2531ED33009B4F2E /* substitution.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,7 @@ import Cocoa
 class ViewController: NSViewController {
     var shift = Bool()
     var viginere = Bool()
+    var substitution = Bool()
 
     @IBOutlet weak var Plain_text: NSTextField!
     
@@ -39,6 +40,13 @@ class ViewController: NSViewController {
             viginere = true
             shift = false
         }
+        if (sender as AnyObject).tag == 4
+        {
+            viginere = false
+            shift = false
+            substitution = true
+            
+        }
         
     }
     
@@ -57,6 +65,11 @@ class ViewController: NSViewController {
             let x = v.encrypt(plainText: plain)
             Cipher_text.stringValue = x
         }
+        else if substitution == true{
+            let s = Substitution()
+            let r = s.encrypt(text: plain)
+            Cipher_text.stringValue = r
+        }
     }
     
     @IBAction func decryption(_ sender: Any) {
@@ -72,6 +85,11 @@ class ViewController: NSViewController {
             let v = Vigenere(key:Key_text.stringValue)
             let x = v.decrypt(encryptedText: plain)
             Cipher_text.stringValue = x
+        }
+        else if substitution == true{
+            let s = Substitution()
+            let r = s.decrypt(value: plain)
+            Cipher_text.stringValue = r
         }
         
     }
