@@ -6,6 +6,7 @@
 //
 
 import Cocoa
+import Foundation
 
 class ViewController: NSViewController {
     var shift = Bool()
@@ -18,6 +19,15 @@ class ViewController: NSViewController {
     @IBOutlet weak var Key_text: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        
+        
+        
+        
+        
+       
+        
 
         // Do any additional setup after loading the view.
     }
